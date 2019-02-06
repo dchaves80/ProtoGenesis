@@ -1,0 +1,72 @@
+﻿/* PALETA TELEGRAM DARK:
+
+    ~NEGRO:         #111717
+    ~CELESTE:       #3571A7
+    ~CELESTE:       #3C7DB5
+    ~CELESTE DARK:  #233444
+    ~GRIS:          #1F1F1F
+    ~CELESTE LIGHT: #8CBFEA
+    ~AZUL:          #00367E
+    ~GRIS LIGHT:    #4D4D4D
+    ~GRIS DARK:     #18191A
+
+*/
+
+body.BackgroundDark {
+    /*background: #233444;*/
+    background: #2B3441;
+    background: linear-gradient(#131517, #1b2835);
+}
+
+div.TopBarDark {
+    background: #131517;
+    margin: -8px;
+    height: 75px;
+}
+
+img.UserImg {
+    position: relative;
+    width: 64px;
+    top: 5px;
+    left: 1260px;
+    border-radius: 50%;
+}
+
+.ButtonDark {
+    color: white;
+    position: relative;
+    font-size: 30px;
+    top: -45px;
+}
+
+/* DROPDOWN */
+.DropDown {
+    display: inline-block;
+    position: relative;
+    left: 1140px;
+    top: -15px;
+}
+.DropDown:hover .DropDownContent  {
+    display: block;
+}
+
+.DropDownMark {
+    color:white;
+    font-size: 25px;
+}
+.DropDownContent {
+    display: none;
+    position: absolute;
+    background-color: #3C7DB5;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,2);
+    border-radius: 3px;
+}
+.DropDownContent a {
+    display: block;
+    color: white;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,13 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@font-face {
+    font-family: 'Alien Resurrection';
+    src: url('../Fonts/Alien Resurrection.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bank Gothic';
+    src: url('../Fonts/bankgothic-regular.ttf') format('truetype');
+}
+
