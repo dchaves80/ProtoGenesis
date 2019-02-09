@@ -86,17 +86,18 @@
     <Content Include="Assets\Images\Logo\spartan-Logo.png" />
     <Content Include="Assets\Js\Login.js" />
     <Content Include="Assets\Js\Main.js" />
-    <Content Include="LoginTest.aspx" />
+    <Content Include="Pages\LoginTest.aspx" />
     <Content Include="Main.aspx" />
-    <Content Include="Main2.aspx" />
+    <Content Include="Pages\Main2.aspx" />
+    <Content Include="Pages\WebServices\LoginWS.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LoginTest.aspx.cs">
+    <Compile Include="Pages\LoginTest.aspx.cs">
       <DependentUpon>LoginTest.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="LoginTest.aspx.designer.cs">
+    <Compile Include="Pages\LoginTest.aspx.designer.cs">
       <DependentUpon>LoginTest.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main.aspx.cs">
@@ -106,12 +107,19 @@
     <Compile Include="Main.aspx.designer.cs">
       <DependentUpon>Main.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Main2.aspx.cs">
+    <Compile Include="Pages\Main2.aspx.cs">
       <DependentUpon>Main2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Main2.aspx.designer.cs">
+    <Compile Include="Pages\Main2.aspx.designer.cs">
       <DependentUpon>Main2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\WebServices\LoginWS.aspx.cs">
+      <DependentUpon>LoginWS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\WebServices\LoginWS.aspx.designer.cs">
+      <DependentUpon>LoginWS.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

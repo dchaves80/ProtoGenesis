@@ -34,3 +34,39 @@ C:\Users\supra\Documents\Programar\CMS\CMS\obj\Debug\CMS.csproj.CoreCompileInput
 C:\Users\supra\Documents\Programar\CMS\CMS\obj\Debug\CMS.csproj.CopyComplete
 C:\Users\supra\Documents\Programar\CMS\CMS\obj\Debug\CMS.dll
 C:\Users\supra\Documents\Programar\CMS\CMS\obj\Debug\CMS.pdb
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\CMS.dll.config
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\CMS.dll
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\CMS.pdb
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\csc.exe
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\csc.exe.config
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\csc.rsp
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\csi.exe
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\csi.rsp
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\System.AppContext.dll
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\System.IO.FileSystem.dll
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\vbc.exe
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\vbc.exe.config
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\vbc.rsp
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\VBCSCompiler.exe
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\obj\Debug\CMS.csprojAssemblyReference.cache
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\obj\Debug\CMS.csproj.CoreCompileInputs.cache
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\obj\Debug\CMS.csproj.CopyComplete
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\obj\Debug\CMS.dll
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\obj\Debug\CMS.pdb

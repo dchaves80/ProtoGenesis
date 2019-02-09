@@ -7,14 +7,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 
-    <link href="Assets/CSS/General.css" rel="stylesheet" />
-    <link href="Assets/CSS/Main2.css" rel="stylesheet" />
+    <link href="../Assets/CSS/General.css" rel="stylesheet" />
+    <link href="../Assets/CSS/Main2.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"/>
     <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script src="Assets/Js/Main.js"></script>
+    <script src="../Assets/Js/Main.js"></script>
 
 </head>
 <body class="BackgroundDark" style="font-family: 'Roboto';color: white;">
@@ -26,7 +26,7 @@
             <!-- TopBar -->
             <div class="TopBarDark">
 
-                <img class="ProfilePic" src="Assets/Images/Images/photo_2018-09-28_20-11-18.jpg" />
+                <img class="ProfilePic" src="../Assets/Images/Images/photo_2018-09-28_20-11-18.jpg" />
                 
 
                 <!-- Dropdown de opciones -->
