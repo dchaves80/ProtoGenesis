@@ -59,7 +59,7 @@
                     </label>
 
                     <label style="margin-top: 5px;" class="LabelInput">
-                        <input style="color:rgba(255,255,255,0.8)" placeholder="ej: *******" class="Input" type="text"/>
+                        <input style="color:rgba(255,255,255,0.8)" placeholder="ej: *******" class="Input" type="password"/>
                         <span class="InputPlaceholderWrap">
                             <span class="InputPlaceholder">CONTRASEÑA</span>
                         </span>
