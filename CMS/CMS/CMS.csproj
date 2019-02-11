@@ -84,21 +84,22 @@
     <Content Include="Assets\Images\Background\universe7.jpg" />
     <Content Include="Assets\Images\Images\photo_2018-09-28_20-11-18.jpg" />
     <Content Include="Assets\Images\Logo\spartan-Logo.png" />
+    <Content Include="Assets\Js\General.js" />
     <Content Include="Assets\Js\Login.js" />
     <Content Include="Assets\Js\Main.js" />
-    <Content Include="Pages\LoginTest.aspx" />
+    <Content Include="Pages\Login\Login.aspx" />
     <Content Include="Main.aspx" />
     <Content Include="Pages\Main2.aspx" />
     <Content Include="Pages\WebServices\LoginWS.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pages\LoginTest.aspx.cs">
-      <DependentUpon>LoginTest.aspx</DependentUpon>
+    <Compile Include="Pages\Login\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\LoginTest.aspx.designer.cs">
-      <DependentUpon>LoginTest.aspx</DependentUpon>
+    <Compile Include="Pages\Login\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main.aspx.cs">
       <DependentUpon>Main.aspx</DependentUpon>

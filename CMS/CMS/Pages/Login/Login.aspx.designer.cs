@@ -7,10 +7,10 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace CMS {
+namespace CMS.Pages.Login {
     
     
-    public partial class LoginTest {
+    public partial class Login {
         
         /// <summary>
         /// Control form1.

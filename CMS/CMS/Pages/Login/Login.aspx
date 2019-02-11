@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LoginTest.aspx.cs" Inherits="CMS.LoginTest" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="CMS.Pages.Login.Login" %>
 
 <!DOCTYPE html>
 
@@ -9,18 +9,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <link href="../Assets/CSS/Login.css" rel="stylesheet" />
-    <script src="../Assets/Js/Login.js"></script>
-    <link href="../Assets/CSS/General.css" rel="stylesheet" />
-    <link href="../Assets/CSS/Widget.css" rel="stylesheet" />
-
+    <link href="../../Assets/CSS/Login.css" rel="stylesheet" />
+    <script src="../../Assets/Js/Login.js"></script>
+    <link href="../../Assets/CSS/General.css" rel="stylesheet" />
+    <link href="../../Assets/CSS/Widget.css" rel="stylesheet" />
+    <script src="../../Assets/Js/General.js"></script>
+    
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Login</title>
 </head>
-
-    <!-- #0E1621 #306DA4 #1c3e5d #18232c -->
-
-<body>    
+<body>
     <form id="form1" runat="server" style="transition: 0.3s; color: rgba(255,255,255,0.8)">
 
         <!-- PAGE -->
@@ -28,8 +26,7 @@
             <div class="TopBar">
 
                 <!-- Logo -->
-                <img class="Logo" src="../Assets/Images/Logo/spartan-Logo.png" />
-                <input type="button" value="INGRESAR" onclick="Login()" class="TestButton" />                
+                <img class="Logo" src="../../Assets/Images/Logo/spartan-Logo.png" />              
             </div>
             <!-- Texto -->
             <div>
@@ -53,14 +50,22 @@
 
                 <!-- Content -->
                 <div>
-                    <div style="margin-top: 30px;">
-                        <input type="text" class="InputTextDark"/>
-                        <p class="InputPlaceHolderDark">USUARIO</p>
-                    </div>
-                    <div style="margin-top: 30px;">
-                        <input type="text" class="InputTextDark"/>
-                        <p class="InputPlaceHolderDark">CONTRASEÑA</p>
-                    </div>
+
+                    <label style="margin-top: 5px;" class="LabelInput">
+                        <input style="color:rgba(255,255,255,0.8)" placeholder="ej: l_lapenna" class="Input" type="text"/>
+                        <span class="InputPlaceholderWrap">
+                            <span class="InputPlaceholder">USUARIO</span>
+                        </span>
+                    </label>
+
+                    <label style="margin-top: 5px;" class="LabelInput">
+                        <input style="color:rgba(255,255,255,0.8)" placeholder="ej: *******" class="Input" type="text"/>
+                        <span class="InputPlaceholderWrap">
+                            <span class="InputPlaceholder">CONTRASEÑA</span>
+                        </span>
+                    </label>
+
+                    <input type="button" value="INGRESAR" style="margin-top: 20px; margin-left: 25px;" class="ButtonDark" />
                 </div>
             </div>
 
