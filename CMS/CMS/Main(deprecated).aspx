@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Main.aspx.cs" Inherits="CMS.Main" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Main(deprecated).aspx.cs" Inherits="CMS.Main" %>
 
 <!DOCTYPE html>
 

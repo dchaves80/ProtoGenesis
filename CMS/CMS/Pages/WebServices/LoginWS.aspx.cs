@@ -11,7 +11,20 @@ namespace CMS.Pages.WebServices
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Response.Clear();
+            Response.ClearHeaders();
 
+            if (Request["user"] != null && Request["pass"] != null)
+                CheckUserPass();
+
+            Response.Flush();
+            Response.End();
         }
+
+        private void CheckUserPass()
+        {
+            Response.Write("true");
+        }
+
     }
 }

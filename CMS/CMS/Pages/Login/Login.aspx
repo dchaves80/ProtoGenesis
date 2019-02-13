@@ -52,23 +52,29 @@
                 <div>
 
                     <label style="margin-top: 5px;" class="LabelInput">
-                        <input style="color:rgba(255,255,255,0.8)" placeholder="ej: l_lapenna" class="Input" type="text"/>
+                        <input id="inputUser" style="color:rgba(255,255,255,0.8)" placeholder="ej: l_lapenna" class="Input" type="text"/>
                         <span class="InputPlaceholderWrap">
                             <span class="InputPlaceholder">USUARIO</span>
                         </span>
                     </label>
 
                     <label style="margin-top: 5px;" class="LabelInput">
-                        <input style="color:rgba(255,255,255,0.8)" placeholder="ej: *******" class="Input" type="password"/>
+                        <input runat="server" id="inputPass" style="color:rgba(255,255,255,0.8)" placeholder="ej: *******" class="Input" type="password"/>                   
                         <span class="InputPlaceholderWrap">
                             <span class="InputPlaceholder">CONTRASEÑA</span>
                         </span>
                     </label>
-
-                    <input type="button" value="INGRESAR" style="margin-top: 20px; margin-left: 25px;" class="ButtonDark" />
+                                        
+                    <input onclick="CheckUserPass()" type="button" value="INGRESAR" style="margin-top: 20px; margin-left: 25px;" id="ingressButton" class="ButtonDark"  />
+                    
                 </div>
             </div>
 
+        </div>
+
+        <!-- HIDDENS -->
+        <div>
+            <input type="hidden" runat="server" id="hiddenUserPass" />
         </div>
 
     </form>

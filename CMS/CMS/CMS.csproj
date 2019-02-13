@@ -88,8 +88,8 @@
     <Content Include="Assets\Js\Login.js" />
     <Content Include="Assets\Js\Main.js" />
     <Content Include="Pages\Login\Login.aspx" />
-    <Content Include="Main.aspx" />
-    <Content Include="Pages\Main2.aspx" />
+    <Content Include="Main%28deprecated%29.aspx" />
+    <Content Include="Pages\Main\Main.aspx" />
     <Content Include="Pages\WebServices\LoginWS.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -101,19 +101,19 @@
     <Compile Include="Pages\Login\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Main.aspx.cs">
+    <Compile Include="Main%28deprecated%29.aspx.cs">
+      <DependentUpon>Main%28deprecated%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main%28deprecated%29.aspx.designer.cs">
+      <DependentUpon>Main%28deprecated%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Main\Main.aspx.cs">
       <DependentUpon>Main.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Main.aspx.designer.cs">
+    <Compile Include="Pages\Main\Main.aspx.designer.cs">
       <DependentUpon>Main.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\Main2.aspx.cs">
-      <DependentUpon>Main2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\Main2.aspx.designer.cs">
-      <DependentUpon>Main2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\WebServices\LoginWS.aspx.cs">
       <DependentUpon>LoginWS.aspx</DependentUpon>
