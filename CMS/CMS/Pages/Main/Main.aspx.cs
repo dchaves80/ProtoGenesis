@@ -11,7 +11,8 @@ namespace CMS
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Control ctrl = LoadControl("/Modules/Pacientes.ascx");
+            moduleExample.Controls.Add(ctrl);
         }
     }
 }

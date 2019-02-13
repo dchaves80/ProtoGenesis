@@ -52,7 +52,7 @@
                 <div>
 
                     <label style="margin-top: 5px;" class="LabelInput">
-                        <input id="inputUser" style="color:rgba(255,255,255,0.8)" placeholder="ej: l_lapenna" class="Input" type="text"/>
+                        <input style="color:rgba(255,255,255,0.8)" placeholder="ej: l_lapenna" class="Input" type="text"/>
                         <span class="InputPlaceholderWrap">
                             <span class="InputPlaceholder">USUARIO</span>
                         </span>
