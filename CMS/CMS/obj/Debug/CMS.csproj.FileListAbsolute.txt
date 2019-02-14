@@ -70,3 +70,8 @@ C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\obj\Debug\CMS.csproj.CoreCompileInputs.
 C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\obj\Debug\CMS.csproj.CopyComplete
 C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\obj\Debug\CMS.dll
 C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\obj\Debug\CMS.pdb
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\Business.dll
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\Business.pdb
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\Connection.dll
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\Connection.pdb
+C:\Proyecto Genesis\ProtoGenesis\CMS\CMS\bin\Connection.dll.config

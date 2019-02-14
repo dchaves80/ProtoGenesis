@@ -8,6 +8,8 @@ function CheckUserPass() {
     var user = $('#inputUser').val()
     var pass = $('#inputPass').val()
 
+    console.log(user + " " + pass);
+
     if (user != "" && pass != "") {
 
         $.ajax({
@@ -20,7 +22,7 @@ function CheckUserPass() {
             },
             success: function (data) {
                 if (data == 'true') {
-                    AccessGranted();
+                    //AccessGranted();
                     
                 }
                 else {

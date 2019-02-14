@@ -5,46 +5,39 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Text;
-using System.Security.Cryptography;
+using Business;
+using System.Data;
+
 
 namespace CMS.Pages.WebServices
 {
     public partial class LoginWS : System.Web.UI.Page
     {
+        public string json = "null";
+
         protected void Page_Load(object sender, EventArgs e)
-        {
+        {            
             Response.Clear();
             Response.ClearHeaders();
 
             if (Request["user"] != null && Request["pass"] != null)
-                CheckUserPass(Request["user"], Request["pass"]);
+                CheckUserPass(Request["user"].ToString(), Request["pass"].ToString());
 
+            Response.Write(json);
             Response.Flush();
             Response.End();
+            
         }
 
         private void CheckUserPass(string user, string pass)
-        {
-            string userCrypted = Encrypt(user);
-            string passCypted = Encrypt(pass);
+        {            
+            string userCrypted = Crypto.StringByMD5(user);
+            string passCypted = Crypto.StringByMD5(pass);
 
-            Response.Write(userCrypted);
+            bool isCorrect = Bus_Users.Get_UserByUserAndPassword(userCrypted, passCypted);
+            
+            if (isCorrect) json = "true";
+            else json = "false";
         }
-
-        private string Encrypt(string input)
-        {
-            MD5 md5 = MD5.Create();
-
-            byte[] hash = md5.ComputeHash(Encoding.ASCII.GetBytes(input));
-
-            StringBuilder sb = new StringBuilder();
-            for (int a = 0; a < hash.Length; a++)
-            {
-                sb.Append(hash[a].ToString("X2"));
-            }
-
-            return sb.ToString();
-        }
-
     }
 }
