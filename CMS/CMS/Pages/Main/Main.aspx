@@ -64,7 +64,7 @@
         <!-- MODULE CONTAINER -->
         <div id="ModuleContainer" class="ModuleContainer">
 
-            <!-- Módulo EXAMPLE -->
+            <%--<!-- Módulo EXAMPLE -->
             <div>
 
                 <h1>Arqueo Caja</h1>
@@ -115,7 +115,7 @@
                         </tr>
                     </table>
                 </div>
-            </div>
+            </div>--%>
 
             <!-- -->
             <div runat="server" id="moduleExample">
