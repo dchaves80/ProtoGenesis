@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using System.Text;
 using Business;
 using System.Data;
+using System.Web.Script.Serialization;
 
 
 namespace CMS.Pages.WebServices
@@ -21,7 +22,7 @@ namespace CMS.Pages.WebServices
             Response.ClearHeaders();
 
             if (Request["user"] != null && Request["pass"] != null)
-                CheckUserPass(Request["user"].ToString(), Request["pass"].ToString());
+                CheckUserPass(Request["user"], Request["pass"]);
 
             Response.Write(json);
             Response.Flush();
@@ -35,9 +36,7 @@ namespace CMS.Pages.WebServices
             string passCypted = Crypto.StringByMD5(pass);
 
             bool isCorrect = Bus_Users.Get_UserByUserAndPassword(userCrypted, passCypted);
-            
-            if (isCorrect) json = "true";
-            else json = "false";
+            json = isCorrect.ToString();
         }
     }
 }

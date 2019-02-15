@@ -1,6 +1,6 @@
 ﻿//  Datos correctos, procede a entrar a la página
 function AccessGranted() {
-    window.location.href = "./Pages/Main2.aspx"
+    window.location.href = "/Pages/Main/Main.aspx";
 }
 
 function CheckUserPass() {
@@ -21,8 +21,8 @@ function CheckUserPass() {
                 pass: pass,
             },
             success: function (data) {
-                if (data == 'true') {
-                    //AccessGranted();
+                if (data == 'True') {
+                    AccessGranted();
                     
                 }
                 else {
