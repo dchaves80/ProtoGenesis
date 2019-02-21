@@ -3,6 +3,7 @@ function AccessGranted() {
     window.location.href = "/Pages/Main/Main.aspx";
 }
 
+//  Verifica las credenciales
 function CheckUserPass() {
 
     var user = $('#inputUser').val()

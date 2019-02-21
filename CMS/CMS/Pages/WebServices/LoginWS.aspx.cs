@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Text;
-using Business;
+using Models;
 using System.Data;
 using System.Web.Script.Serialization;
 
@@ -32,10 +32,10 @@ namespace CMS.Pages.WebServices
 
         private void CheckUserPass(string user, string pass)
         {            
-            string userCrypted = Crypto.StringByMD5(user);
-            string passCypted = Crypto.StringByMD5(pass);
+            string userCrypted = Crypt.StringByMD5(user);
+            string passCypted = Crypt.StringByMD5(pass);
 
-            bool isCorrect = Bus_Users.Get_UserByUserAndPassword(userCrypted, passCypted);
+            bool isCorrect = Mod_Users.Get_UserByUserAndPassword(userCrypted, passCypted);
             json = isCorrect.ToString();
         }
     }

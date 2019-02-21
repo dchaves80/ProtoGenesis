@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Bank Gothic';
-    src: url('../Fonts/bankgothic-regular.ttf') format('truetype');
+    src: url('../Fonts/Bank Gothic Regular.ttf') format('truetype');
 }
 
 /* BUTTON */
@@ -32,28 +32,6 @@ input.ButtonDark {
     }
 
 /* INPUT TEXT */
-/*input.InputTextDark {         DEPRECATED
-    background: none;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    transition: 0.3s;
-    color: rgba(255,255,255,0.8);
-}
-p.InputPlaceHolderDark {
-    position: relative;
-    top: -22px;
-    transition: 0.3s;
-    margin: 0;
-    width: 10px;
-}
-input.InputTextDark:focus {
-    border-bottom: 2px solid #3a7999;
-}
-    input.InputTextDark:focus + p.InputPlaceHolderDark {
-        top: -45px;
-    }*/
-
 .Input {
     background-color: rgba(0,0,0,0);
     border: none;

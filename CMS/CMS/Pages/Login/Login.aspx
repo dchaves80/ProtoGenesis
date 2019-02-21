@@ -12,7 +12,6 @@
     <link href="../../Assets/CSS/Login.css" rel="stylesheet" />
     <script src="../../Assets/Js/Login.js"></script>
     <link href="../../Assets/CSS/General.css" rel="stylesheet" />
-    <link href="../../Assets/CSS/Widget.css" rel="stylesheet" />
     <script src="../../Assets/Js/General.js"></script>
     
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -74,7 +73,7 @@
 
         <!-- HIDDENS -->
         <div>
-            <input type="hidden" runat="server" id="hiddenUserPass" />
+            
         </div>
 
     </form>

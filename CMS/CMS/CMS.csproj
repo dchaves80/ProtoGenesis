@@ -126,7 +126,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Fonts\Alien Resurrection.ttf" />
-    <Content Include="Assets\Fonts\bankgothic-regular.ttf" />
+    <Content Include="Assets\Fonts\Bank Gothic Regular.ttf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -139,6 +139,10 @@
     <ProjectReference Include="..\..\..\Genesis\Business\Business.csproj">
       <Project>{1f3a9371-daee-4433-8087-1179899e2317}</Project>
       <Name>Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Genesis\Models\Models.csproj">
+      <Project>{5e79beb4-e9c4-423c-9466-31bd50fe99dd}</Project>
+      <Name>Models</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
